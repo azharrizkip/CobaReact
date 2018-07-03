@@ -1,0 +1,41 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 385 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 208096 0 0
+ciMethod java/lang/Object hashCode ()I 2049 1 256 0 -1
+ciMethod java/lang/Object equals (Ljava/lang/Object;)Z 2105 1 6651 0 0
+ciMethod java/lang/Object clone ()Ljava/lang/Object; 2049 1 256 0 -1
+ciMethod java/lang/String charAt (I)C 4097 1 566306 0 -1
+ciMethod java/lang/Class isAssignableFrom (Ljava/lang/Class;)Z 2049 1 256 0 -1
+ciMethod java/lang/Class isPrimitive ()Z 2049 1 256 0 -1
+ciMethod java/lang/Class getName ()Ljava/lang/String; 817 1 13700 0 -1
+ciMethod java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V 5121 1 640 0 -1
+ciMethod java/lang/ref/Reference get ()Ljava/lang/Object; 1065 1 133 0 -1
+ciMethod java/lang/ref/SoftReference <init> (Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V 3081 1 946 0 -1
+ciMethod java/lang/ref/SoftReference get ()Ljava/lang/Object; 2049 1 15892 0 96
+ciMethod java/lang/ref/WeakReference <init> (Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V 2049 1 4802 0 -1
+ciMethod java/lang/ref/PhantomReference get ()Ljava/lang/Object; 1321 1 1248 0 0
+ciMethod java/lang/Thread currentThread ()Ljava/lang/Thread; 2049 1 256 0 -1
+ciMethod java/lang/reflect/Method getParameterTypes ()[Ljava/lang/Class; 2105 1 8410 0 256
+ciMethod sun/misc/Unsafe compareAndSwapInt (Ljava/lang/Object;JII)Z 2049 1 256 0 -1
+ciMethod sun/misc/Unsafe getAndAddInt (Ljava/lang/Object;JI)I 3425 1 635 0 -1
+ciMethod java/util/HashMap hash (Ljava/lang/Object;)I 2049 1 30383 0 0
+ciMethod java/util/HashMap get (Ljava/lang/Object;)Ljava/lang/Object; 2049 1 17755 0 640
+ciMethod java/util/HashMap getNode (ILjava/lang/Object;)Ljava/util/HashMap$Node; 2049 1 10535 0 480
+ciMethod java/lang/ClassValue$ClassValueMap getCache ()[Ljava/lang/ClassValue$Entry; 1025 1 128 0 0
+ciMethod java/lang/ClassValue$ClassValueMap startEntry (Ljava/lang/ClassValue;)Ljava/lang/ClassValue$Entry; 2049 1 257 0 -1
+ciMethod java/lang/ClassValue$ClassValueMap finishEntry (Ljava/lang/ClassValue;Ljava/lang/ClassValue$Entry;)Ljava/lang/ClassValue$Entry; 2049 1 257 0 -1
+ciMethod java/lang/ClassValue$ClassValueMap loadFromCache ([Ljava/lang/ClassValue$Entry;I)Ljava/lang/ClassValue$Entry; 1121 1 2501 0 0
+ciMethod java/lang/ClassValue$ClassValueMap probeHomeLocation ([Ljava/lang/ClassValue$Entry;Ljava/lang/ClassValue;)Ljava/lang/ClassValue$Entry; 1121 1 2501 0 0
+ciMethod java/lang/ClassValue$ClassValueMap probeBackupLocations ([Ljava/lang/ClassValue$Entry;Ljava/lang/ClassValue;)Ljava/lang/ClassValue$Entry; 345 1 257 0 0
+ciMethod java/lang/ClassValue$ClassValueMap entryDislocation ([Ljava/lang/ClassValue$Entry;ILjava/lang/ClassValue$Entry;)I 0 0 1 0 -1
+ciMethod java/lang/ThreadLocal initialValue ()Ljava/lang/Object; 65 1 8 0 -1
+ciMethod java/lang/ThreadLocal get ()Ljava/lang/Object; 2057 1 3902 0 0
+ciMethod java/lang/ThreadLocal setInitialValue ()Ljava/lang/Object; 33 1 21 0 0
+ciMethod java/lang/ThreadLocal getMap (Ljava/lang/Thread;)Ljava/lang/ThreadLocal$ThreadLocalMap; 2049 1 1282 0 0
+ciMethod java/lang/ThreadLocal createMap (Ljava/lang/Thread;Ljava/lang/Object;)V 9 1 2 0 -1
+ciMethod java/lang/ThreadLocal access$400 (Ljava/lang/ThreadLocal;)I 1025 1 128 0 0
+ciMethod java/util/concurrent/atomic/AtomicInteger incrementAndGet ()I 4089 1 1530 0 0
+ciMethodData java/lang/Object <init> ()V 2 208098 orig 264 72 34 202 93 0 0 0 0 128 4 114 19 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 17 87 25 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/HashMap$TreeNode getTreeNode (ILjava/lang/Object;)L
